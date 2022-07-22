@@ -1,0 +1,27 @@
+<?php $_shouldextend[1]=1; ?>
+<?php $this->startSection('content'); ?>
+<div class="uk-container uk-flex-auto uk-container uk-margin"
+	data-uk-parallax="y: 0,50; easing:0; opacity:0.2">
+	<h4 class="uk-heading-line"><span>Contact Us</span></h4>
+	<form>
+ <fieldset class="uk-fieldset">
+ <div class="uk-margin">
+ <label for="">Name</label>
+ <input class="uk-input" type="text" placeholder="Write your name here.." required> 
+ </div>
+
+ <div class="uk-margin">
+ <label for="">Email</label>
+ <input class="uk-input" type="email" placeholder="Let us know how to contact you back.." required>
+ </div>
+ 
+ <div class="uk-margin">
+ <label for="">Message</label>
+ <textarea class="uk-textarea" rows="5" placeholder="What would you like to tell us.."></textarea>
+ </div>
+ <button class="uk-button uk-button-primary uk-width-1-1">Send Message</button>
+ </fieldset>
+	</form>
+</div>
+<?php $this->stopSection(); ?>
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layouts.app'); } ?>
