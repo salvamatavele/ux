@@ -18,7 +18,5 @@ After clone this project on localhost path run:
 * Open config/Config.php file end edit, configure database connection acording to your and change the base url if you have changed the project name;
 * make sure mod_rewrite is enabled;
 * Run the project :
-* * [http://localhost/ux/contact](http://localhost/ux/contact) form side link
-* * [http://localhost/ux/panel](http://localhost/ux/panel) messages list side link
-
-
+    *  [http://localhost/ux](http://localhost/ux/contact) form side link
+    * [http://localhost/ux/panel](http://localhost/ux/panel) messages list side link
